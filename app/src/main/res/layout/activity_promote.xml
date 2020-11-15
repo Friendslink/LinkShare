@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#F1F1F1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Promote">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#116FC1"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Select Country" />
+
+    <Spinner
+        android:id="@+id/spinner_country"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_height="35sp"
+    />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#116FC1"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Select Country" />
+
+    <Spinner
+        android:id="@+id/spinner_country"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_height="35sp"
+/>
+    <TextView
+        android:id="@+id/selectDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#116FC1"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Total Time Duration" />
+
+    <Spinner
+        android:id="@+id/spinner_city"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+    />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="8dp"
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E90BC"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Estimated Cost" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D17F7F"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:text="Before you promoting your post, you should know after submitting the add you cannot undo it." />
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="match_parent"
+            android:textColor="#00897B"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:fontFamily="monospace"
+            android:layout_height="wrap_content"
+            android:text="20.00$" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROMOTE" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANCEL AND RETURN" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
